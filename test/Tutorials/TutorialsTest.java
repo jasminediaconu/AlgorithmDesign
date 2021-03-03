@@ -1,11 +1,7 @@
 package Tutorials;
 
-import main.Tutorial.DivideAndConquer.FastBinaryExponentiation;
-import main.Tutorial.DivideAndConquer.MaximumSubarray;
-import main.Tutorial.DivideAndConquer.OptimalDecisionTree;
-import main.Tutorial.DivideAndConquer.PartialSums;
-import main.Tutorials.GreedyAlgorithms.*;
-import org.apache.commons.math3.util.Pair;
+import main.MidtermPreparation.Tutorials.DivideAndConquer.*;
+import main.MidtermPreparation.Tutorials.GreedyAlgorithms.*;
 import org.junit.Assert;
 import org.junit.jupiter.api.Test;
 
@@ -63,13 +59,13 @@ public class TutorialsTest {
 
     @Test
     public void irrigation() throws IOException {
-        InputStream in = new FileInputStream("src/assets/GreedyAlgorithms/irrigation.txt");
+        InputStream in = new FileInputStream("src/assets/MidtermPreparation.GreedyAlgorithms/irrigation.txt");
         Assert.assertEquals("122", IrrigationArea.run(in));
     }
 
     @Test
     public void kruskalMST() throws FileNotFoundException {
-        String fileName = "src/assets/GreedyAlgorithms/example";
+        String fileName = "src/assets/MidtermPreparation.GreedyAlgorithms/example";
         Scanner sc = new Scanner(new FileInputStream(fileName + ".in"));
         int n = sc.nextInt();
         Edge[] graph = KruskalMST.makeGraph(sc);
