@@ -1,2 +1,2 @@
 # Algorithm Design
-This repository contains solved Algoirthm Design exercises.
+This repository contains solved Algorithm Design exercises.
